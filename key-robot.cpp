@@ -37,8 +37,8 @@ void backward() {
 void left() {
   gpioWrite(PIN1, PI_LOW);
   gpioWrite(PIN2, PI_HIGH);
-  gpioWrite(PIN3, PI_LOW);
-  gpioWrite(PIN4, PI_HIGH);
+  gpioWrite(PIN3, PI_HIGH);
+  gpioWrite(PIN4, PI_LOW);
 }
 
 void right() {
